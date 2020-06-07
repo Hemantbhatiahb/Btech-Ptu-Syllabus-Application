@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+
+    <item
+        android:title="CSE"
+        android:orderInCategory="1"
+        android:id="@+id/itemCse"
+        android:icon="@drawable/cse_icon"/>
+
+    <item
+        android:icon="@drawable/mechanic_icon"
+        android:title="Mechanical"
+        android:orderInCategory="2"
+        android:id="@+id/itemMechanical"
+        />
+
+    <item
+        android:icon="@drawable/it_icon"
+        android:title="IT"
+        android:orderInCategory="3"
+        android:id="@+id/itemIt"/>
+
+    <item
+        android:icon="@drawable/ece_icon"
+        android:title="ECE"
+        android:orderInCategory="4"
+        android:id="@+id/itemEce"/>
+
+
+    <item android:title="PTU App"
+        android:orderInCategory="5">
+        <menu>
+            <item android:title="PTU Result"
+                android:orderInCategory="1"
+                android:id="@+id/ptuResult"/>
+            <item android:title="PTU Official Website"
+                android:orderInCategory="2"
+                android:id="@+id/ptuOfficialwebsite"/>
+
+
+        </menu>
+
+    </item>
+
+
+
+
+</menu>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateFeedBack"
+    android:layout_margin="20dp"
+    android:background="#DACEE6">
+
+
+
+
+    <EditText
+        android:id="@+id/feedbackText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"
+        android:textStyle="normal"
+        android:inputType="textPersonName"
+        android:hint="Enter Here" />
+
+    <Button
+        android:id="@+id/sendFeedback"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/feedbackText"
+        android:layout_marginTop="100dp"
+        android:text="SEND FEEDBACK"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sendFeedback"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="50dp"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:text="Note :Choose Gmail for Share" />
+</RelativeLayout>

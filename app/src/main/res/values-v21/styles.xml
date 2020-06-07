@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+
+    <style name="AlertDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textColorPrimary">#ffffff</item>
+        <item name="android:title">#FFFFFF</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+
+</resources>
